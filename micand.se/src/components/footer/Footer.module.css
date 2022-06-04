@@ -1,0 +1,28 @@
+.container {
+    background-color: floralwhite;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+}
+
+.text {
+    font-family: Montserrat, sans-serif;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+@media only screen and (min-width: 768px) {
+    .text {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .text {
+        margin-top: 20px;
+    }
+}

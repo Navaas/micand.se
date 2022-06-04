@@ -8,7 +8,8 @@
     margin: 0;
     padding: 20px;
     overflow: hidden;
-    background-color: #676f75
+    background-color: floralwhite;
+
 }
 
 .li {
@@ -16,7 +17,7 @@
 }
 
 .li:hover {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid steelblue;
 }
 .item:last-child {
     border-right: none;
@@ -24,9 +25,11 @@
 
 .link {
     display: block;
-    color: white;
+    color: steelblue;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
 }
 
 .image {
@@ -36,5 +39,5 @@
 }
 
 .imgContainer {
-    background-color: #676f75
+    background-color: floralwhite;
 }

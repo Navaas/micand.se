@@ -1,0 +1,70 @@
+.homeView {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #efefef;
+    text-align: center;
+}
+
+
+.bigText {
+    font-family: Calligraffitti, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    margin: 100px 0 0 0;
+}
+
+.smallText {
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 0;
+    color: black;
+}
+
+.githubImage {
+    height: 10%;
+}
+
+.article {
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .bigText {
+        font-size: 30px;
+    }
+
+    .smallText {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .githubImage {
+        height: 50%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .homeView {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .bigText {
+        font-size: 70px;
+    }
+
+    .smallText {
+        font-size: 22px;
+    }
+
+    .githubImage {
+        margin-top: 50px;
+        max-height: 50%;
+    }
+
+    .localText {
+        font-family: Montserrat, sans-serif;
+        font-size: 16px;
+    }
+}
