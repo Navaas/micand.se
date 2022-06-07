@@ -24,6 +24,7 @@
 .profileImage {
     height: 60%;
 }
+
 .article {
     text-align: center;
     height: 40vh;
@@ -34,9 +35,6 @@
     font-size: 16px;
 }
 
-.githubImage {
-    height: 10%;
-}
 
 @media only screen and (min-width: 768px) {
     .bigText {
@@ -58,6 +56,10 @@
 
     .localText {
         font-size: 16px;
+    }
+
+    .profileImage {
+        height: 100%;
     }
 }
 

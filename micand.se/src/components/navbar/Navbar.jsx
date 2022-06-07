@@ -6,7 +6,7 @@ const Navbar = () => {
     const { width } = useWindowDimensions()
     return (
         <>
-            { (width >= 711) ? <Desktop/> : <Mobile/> }
+            { (width >= 911) ? <Desktop/> : <Mobile/> }
         </>
     )
 }
