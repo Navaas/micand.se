@@ -1,5 +1,5 @@
 import css from './HomeView.module.css'
-import githubIcon from '../../utils/images/github.png'
+import profileImage from '../../utils/images/micand.png'
 
 const HomeView = () => {
     return (
@@ -10,7 +10,7 @@ const HomeView = () => {
                 <p className={css.localText}>📍 Stenungsund / Gothenburg</p>
             </section>
             <section className={css.article}>
-                <img src={githubIcon} alt="github" className={css.githubImage}/>
+                <img src={profileImage} alt="github" className={css.profileImage}/>
             </section>
         </div>
     )

@@ -5,7 +5,6 @@
     text-align: center;
 }
 
-
 .bigText {
     font-family: Calligraffitti, sans-serif;
     font-size: 22px;
@@ -22,26 +21,43 @@
     color: black;
 }
 
+.profileImage {
+    height: 60%;
+}
+.article {
+    text-align: center;
+    height: 40vh;
+}
+
+.localText {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+}
+
 .githubImage {
     height: 10%;
 }
 
-.article {
-    text-align: center;
-}
-
 @media only screen and (min-width: 768px) {
     .bigText {
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .smallText {
-        font-size: 12px;
+        font-size: 16px;
         margin: 0;
     }
 
-    .githubImage {
-        height: 50%;
+    .profileImage {
+        max-height: 60%;
+    }
+
+    .article {
+        height: 40vh;
+    }
+
+    .localText {
+        font-size: 16px;
     }
 }
 
@@ -58,13 +74,16 @@
         font-size: 22px;
     }
 
-    .githubImage {
-        margin-top: 50px;
-        max-height: 50%;
+    .profileImage {
+        height: 350px;
     }
 
     .localText {
-        font-family: Montserrat, sans-serif;
         font-size: 16px;
+    }
+
+    .article {
+        height: 80vh;
+        margin: 40px 100px 0 0;
     }
 }
