@@ -3,7 +3,8 @@
     text-align: center;
     display: grid;
     grid-template-columns: 1fr;
-    position: absolute;
+    position: fixed;
+    left: 0;
     bottom:0;
     width: 100%;
 }
