@@ -14,7 +14,7 @@
     width: 100px;
     height: 100px;
     perspective: 1000px;
-    margin: 60px 0 0 150px
+    margin: 20px 0 0 150px
 }
 
 .flipCardInner {
@@ -67,6 +67,13 @@
     background-color: #676F75;
 }
 
+.textContact {
+    font-family: Calligraffitti, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
 
 @media only screen and (min-width: 768px) {
     .container {
@@ -74,33 +81,32 @@
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 
-    .gridContainerMain {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-    }
-
     .flipCard {
         width: 200px;
         height: 200px;
-        margin: 150px 20px 0 0;
+        margin: 0 20px 0 0;
     }
 
     .image {
         max-height: 50%;
         margin-top: 50px;
     }
+
+    .textContact {
+        font-size: 70px;
+        margin-top: 150px;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
     .gridContainer {
-        margin-top: 40px;
         margin-bottom: 40px;
     }
 
     .flipCard {
         width: 200px;
         height: 200px;
-        margin: 50px;
+        margin: 0;
     }
 
     .image {
@@ -112,5 +118,10 @@
         margin-top: 50px;
         padding: 10px;
         width: 100px;
+    }
+
+    .textContact {
+        font-size: 70px;
+        margin-top: 50px;
     }
 }

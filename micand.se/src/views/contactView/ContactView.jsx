@@ -7,6 +7,9 @@ import github from '../../utils/images/github.png'
 const ContactView = () => {
     return (
         <>
+            <section className={css.section}>
+                <h1 className={css.textContact}>Contact me</h1>
+            </section>
             <div className={css.container}>
                 <section>
                 </section>
@@ -32,7 +35,8 @@ const ContactView = () => {
                             <div className={css.flipCardBack}>
                                 <span>Check out my LinkedIn and send me a invite</span>
                                 <form action="https://github.com/micand89/Portfolie" method="get" target="_blank">
-                                    <button type="submit" className={css.button}>Click me</button></form>
+                                    <button type="submit" className={css.button}>Click me</button>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -45,8 +49,10 @@ const ContactView = () => {
                             </div>
                             <div className={css.flipCardBack}>
                                 <span>Check out some of my project on github</span>
-                                <form action="https://www.linkedin.com/in/michaela-andreasson-421824224/" method="get" target="_blank">
-                                    <button type="submit" className={css.button}>Click me</button></form>
+                                <form action="https://www.linkedin.com/in/michaela-andreasson-421824224/" method="get"
+                                      target="_blank">
+                                    <button type="submit" className={css.button}>Click me</button>
+                                </form>
                             </div>
                         </div>
                     </div>
