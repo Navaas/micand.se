@@ -15,3 +15,19 @@ body {
     src: local('Montserrat'),
     url('../fonts/Montserrat-Light.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins'),
+    url('../fonts/Poppins-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins Thin';
+    src: local('Poppins'),
+    url('../fonts/Poppins-Thin.ttf') format('truetype');
+}
+
+h1, span, p {
+    font-family: Poppins, sans-serif;
+}

@@ -4,7 +4,7 @@ function Footer() {
     return (
         <footer className={css.container}>
             <section>
-                <p className={css.text}>© 2022 Created and built by Michaela Andreasson</p>
+                <p className={css.text}>© 2022 Created and Built by Michaela Andreasson</p>
             </section>
         </footer>
     )
