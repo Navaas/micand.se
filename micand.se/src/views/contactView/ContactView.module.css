@@ -24,7 +24,7 @@
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 40px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 .flipCard:hover .flipCardInner {
@@ -37,10 +37,11 @@
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    padding: 10px;
 }
 
 .flipCardFront {
-    background-color: #bbb;
+    background-color: #F7D7DD;
     color: black;
 }
 
@@ -55,12 +56,17 @@
 }
 
 .button {
-    background-color: lightpink;
-    margin-top: 30px;
-    padding: 10px;
+    background-color: whitesmoke;
+    opacity: 50%;
+    border: 0.1em solid gray;
+    border-radius: 3px;
+    box-shadow: 0.1em 2px;
+    cursor: pointer;
+    padding: 2px;
+    font-family: Poppins, sans-serif;
+    font-size: 10px;
     width: 80px;
-    border-radius: 15px;
-    border: 1px solid lightslategrey;
+    text-transform: uppercase;
 }
 
 .button:hover {
@@ -72,6 +78,12 @@
     text-align: center;
     font-size: 40px;
     margin-top: 50px;
+}
+
+.text {
+    font-family: Calligraffitti, sans-serif;
+    font-size: 11px;
+    color: white;
 }
 
 
@@ -96,6 +108,15 @@
         font-size: 70px;
         margin-top: 150px;
     }
+    .text {
+        font-size: 22px;
+    }
+
+    .button {
+        padding: 6px;
+        font-size: 16px;
+        width: 120px;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -115,7 +136,6 @@
     }
 
     .button {
-        margin-top: 50px;
         padding: 10px;
         width: 100px;
     }
