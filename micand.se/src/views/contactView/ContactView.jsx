@@ -33,7 +33,7 @@ const ContactView = () => {
                                 <img className={css.image} src={linkedIn} alt="github"/>
                             </div>
                             <div className={css.flipCardBack}>
-                                <p className={css.text}>Check out my LinkedIn and send me a invite</p>
+                                <p className={css.text}>Check out my LinkedIn</p>
                                 <form action="https://github.com/micand89/Portfolie" method="get" target="_blank">
                                     <button type="submit" className={css.button}>View</button>
                                 </form>
