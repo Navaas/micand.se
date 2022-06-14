@@ -19,7 +19,7 @@ const PortfolieView = () => {
                     <br/>
                     <button className={css.button}>View</button>
                 </section>
-                <section className={css.sectionBox}>
+                <section className={ `${css.sectionBox} ${css.sectionBorder}`} >
                     <h1>SmurfBook</h1>
                     <h3>React, TypeScript</h3>
                     <img src={image2} alt="image2" className={css.image}/>
