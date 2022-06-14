@@ -46,6 +46,15 @@
     margin: auto;
 }
 
+.text {
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+}
+
+.smallText {
+    font-family: "Poppins Thin", sans-serif;
+}
+
 @media only screen and (min-width: 768px) {
     .sectionBox {
         border-top: solid 1px black;
