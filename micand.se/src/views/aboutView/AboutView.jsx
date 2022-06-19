@@ -18,7 +18,7 @@ const AboutView = () => {
                     <p> As a person i like to keep things in order which is good because i try to write my code as clean
                         as possible.
                         I work structured, i like to try new things and i have a keen eye for design.</p>
-                    <button className={css.buttonCv}>Mitt cv</button>
+                    <a href="https://dashing-gumption-c5da63.netlify.app/" method="get" target="_blank"> <button className={css.buttonCv}>Mitt cv</button></a>
                 </section>
                 <section className={css.empty}></section>
             </div>
