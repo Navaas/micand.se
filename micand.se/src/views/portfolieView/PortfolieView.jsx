@@ -17,7 +17,7 @@ const PortfolieView = () => {
                     <img src={image1} alt="image1" className={css.image}/>
                     <br/>
                     <br/>
-                    <button className={css.button}>View</button>
+                    <a href="https://github.com/micand89/Portfolie/tree/main/Datalagring" method="get" target="_blank"><button className={css.button}>View</button></a>
                 </section>
                 <section className={ `${css.sectionBox} ${css.sectionBorder}`} >
                     <h1 className={css.text}>SmurfBook</h1>
@@ -25,7 +25,7 @@ const PortfolieView = () => {
                     <img src={image2} alt="image2" className={css.image}/>
                     <br/>
                     <br/>
-                    <button className={css.button}>View</button>
+                    <a href="https://github.com/EmilHaqvinsson/fullstack-uppgift" method="get" target="_blank"><button className={css.button}>View</button></a>
                 </section>
                 <section>
                     <h1 className={css.text}>Webbshop</h1>
@@ -33,7 +33,8 @@ const PortfolieView = () => {
                     <img src={image3} alt="image3" className={css.image}/>
                     <br/>
                     <br/>
-                    <button className={css.button}>View</button>
+
+                    <a href="https://github.com/micand89/Portfolie/tree/main/Webbutveckling_2%20-%20webbshop/webbshop" method="get" target="_blank"><button className={css.button}>View</button></a>
                 </section>
             </div>
         </>
